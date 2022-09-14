@@ -8,13 +8,10 @@
 #include "soc/rtc_cntl_reg.h"  //disable brownout problems
 #include "esp_http_server.h"
 
-// Replace with your network credentials
-const char* ssid     = "ESP32-Access-Point";
-const char* password = "123456789";
+const char* ssid     = "YourWifiAP";
+const char* password = "YourWifiAPPassword";
 
 #define PART_BOUNDARY "123456789000000000000987654321"
-
-// Not tested with this model
 #define CAMERA_MODEL_WROVER_KIT
 
 #if defined(CAMERA_MODEL_WROVER_KIT)
